@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: rgb(10, 10, 10);
+  height: 85.7vh;
+  margin: 0px;
+  padding-top: 7%;
 }
 
 .App-logo {
@@ -35,4 +39,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+* {
+  margin: 0px;
+}
+.box {
+  width: 312px;
+  height: 318px;
+  border: 2px solid red;
+  margin-left: 39%;
+}
+.box1 {
+  border: 2px solid red;
+  display: inline-block;
+  height: 102px;
+  width: 100px;
+  background-color: rgb(168, 163, 163);
+}
+.trueFalse {
+  font-size: 40px;
+  padding-top: 30px;
+}
+#btnbox {
+  margin-top: 20px;
+}
+.btn-box {
+  font-size: 40px;
+}
+h1 {
+  color: white;
 }
